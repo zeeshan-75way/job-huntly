@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+@utility red-hat-600 {
+  font-family: "Red Hat Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+@utility red-hat-700 {
+  font-family: "Red Hat Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+@utility red-hat-300 {
+  font-family: "Red Hat Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+@utility red-hat-900 {
+  font-family: "Red Hat Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+@utility epilogue-400 {
+  font-family: "Epilogue", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+@utility epilogue-500 {
+  font-family: "Epilogue", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+@utility epilogue-700 {
+  font-family: "Epilogue", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+@utility text-custom-blue {
+  color: #26a4ff;
+}
+
+@utility clash-display {
+  font-family: "Clash Display", sans-serif;
+  /* font-weight: 600; */
+}
+@utility bg-primary-blue {
+  background-color: #4640de;
+}
