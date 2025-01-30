@@ -1,9 +1,7 @@
-import React from "react";
 import { ReactComponent as Underline } from "../../assets/underline.svg";
 import SearchBox from "./SearchBox";
-type Props = {};
 
-const HeroSection = (props: Props) => {
+const HeroSection = () => {
   return (
     <div className=" md:p-12 p-6 w-11/12 mx-auto flex  ">
       <div className="flex flex-col  font-bold clash-display gap-y-2">
